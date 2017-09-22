@@ -39,19 +39,19 @@ h1 {
 }
 
 .parallax{
-	background:url("assets/img/img1.png") no-repeat center;
+	background:url("img/img1.png") no-repeat center;
 	background-attachment: fixed;
 	height: 300px;
 }
 
 .parallax2{
-	background:url("assets/img/img2.png") no-repeat  center;
+	background:url("img/img2.png") no-repeat  center;
 	background-attachment: fixed;
 	height: 300px;
 }
 
 .parallax3{
-	background:url("assets/img/img4.jpeg") no-repeat  center;
+	background:url("img/img4.jpeg") no-repeat  center;
 	background-attachment: fixed;
 	height: 300px;
 }
