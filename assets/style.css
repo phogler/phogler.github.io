@@ -1,3 +1,9 @@
+html {
+	background: white;
+}
+
+}
+
 body {
 	font-family: "Open Sans", sans-serif;
 
@@ -5,19 +11,33 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
 	margin: 0 auto;
+}
+
+.banner {
+	background-position: center;
+	background-attachment: cover;
+	height: 20%;
+}
+
+.bannertext {
+	text-align: cover;
 }
 
 .header p {
 	text-align: center;
 	letter-spacing: 8px;
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: uppercase;
 }
 
-.navigation{
-
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	background: #f8f8f8;
+	padding: 0px;
+	font-family: "Roboto", sans-serif;
 }
 
 .footer {
@@ -27,32 +47,61 @@ h1 {
 	font-family: "Roboto", sans-serif;
 }
 
-.container{
-	max-width: 960px;
-	margin: 0 auto;
-	background: #f8f8f8;
-	padding: 10px;
-}
 .containertext{
 	font-size: 20px;
 	font-family: "Source Sans Pro", sans-serif;
+	color: #gray;
+	font-style: 2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: #529AE1;
+}
+
+p a:hover {
+	background: #529AE1;
+ 
 }
 
 .parallax{
-	background:url("img/img1.png") no-repeat center;
-	background-attachment: fixed;
+	background:url("img/img1.png") no-repeat;
 	height: 300px;
+	display: block;
 }
 
 .parallax2{
-	background:url("img/img2.png") no-repeat  center;
-	background-attachment: fixed;
+	background:url("img/img1.png") no-repeat  center;
 	height: 300px;
+	width: 100%;
+	display: block;
 }
 
 .parallax3{
-	background:url("img/img4.jpeg") no-repeat  center;
-	background-attachment: fixed;
+	background:url("img/img1.png") no-repeat  center;
 	height: 300px;
+	background-attachment: fixed;
+	display: block;
 }
 
